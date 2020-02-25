@@ -1,0 +1,425 @@
+#culture{
+	width: 100%;
+	min-width: 1224px;
+	height: auto;
+	max-width: 1920px;
+	/*min-height: 600px;*/
+	background: url(../img/cultureBg.png) repeat;
+	padding-top: 6.6rem;
+	.culture_center{
+		width: 1224px;
+		margin:0 auto;
+	}
+	.banner{
+		width: 995px;
+		height: auto;
+		margin:0 auto;
+		#focus{
+			width:100%; 
+			height:auto;
+			position: relative;
+			border-radius: 28px;
+			box-shadow: 0 0 5px #000;
+			.bd{ 
+		        height: auto;
+		        width: 100%;
+		        border-radius: 28px;
+				ul{
+					border-radius: 28px;
+					li{
+					 	width: 100%;
+					 	height: auto;
+					 	position: relative;
+					 	border-radius: 28px;
+					 	img{
+					 		width: 100%;
+				 			height: auto;
+				 			display: block;
+				 			border-radius: 28px;
+					 	}
+					 	.headline{
+							position: absolute;
+							bottom: 0;
+							width: 100%;
+							height: 40px;
+							line-height: 40px;
+							background-color: rgba(0,0,0,0.3);
+							border-bottom-right-radius:28px;
+							border-bottom-left-radius:28px;
+							p{
+								padding-left: 48px;
+								color: #9fa0a0;
+								font-size: 16px;
+								overflow: hidden;
+								white-space: nowrap;
+								text-overflow: ellipsis;
+							} 
+					 	}
+					}
+				}
+			} 
+			.hd{
+				position: absolute;
+				right: 55px;
+				bottom: 14px;
+				ul{
+					font-size:0;
+					li{
+						display: inline-block; 
+						width: 12px;      
+						height:12px;      
+						background-color:#fff;      
+						border-radius: 50%;      
+						-moz-border-radius: 50%;      
+						-webkit-border-radius: 50%; 
+						margin-left: 7px;
+						opacity:0.6;
+					}
+					.on{
+						width: 33px;
+						border-radius: 10px;
+					}
+				}
+			} 	
+		}
+		.banner_page{
+			width: 511px;
+			margin:74px auto 0;
+			img{
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+	/*文化中心*/
+	.culture_list{
+		width: 1017px;
+		margin:24px auto 0;
+		border-top: 2px solid #fff;
+		li{
+			border-bottom: 2px solid #fff;
+			position: relative;
+			width: 100%;
+			padding-top: 1px;
+			.circle{
+				width: 288px;
+				height: 288px;
+				border-radius: 50%;      
+				-moz-border-radius: 50%;      
+				-webkit-border-radius: 50%; 
+				position: absolute;
+				left: 36px;
+				top: 35px;
+				z-index: 1;
+				box-shadow: 0 0 10px #8a8181;
+				img{
+					width: 100%;
+					object-fit: cover;
+					border-radius: 50%;
+					-moz-border-radius: 50%;
+					-webkit-border-radius: 50%;
+				}
+			}
+			.detail{
+				height: 238px;
+				margin:60px 20px 60px 180px;
+				background-color: rgba(255,255,255,0.5);
+				padding-left: 188px;
+				border-radius: 50px;
+				position: relative;
+				.title{
+					font-size: 36px;
+					color: #000;
+					padding: 40px 50px 0 0;
+					line-height: 40px;
+					max-height: 80px;
+					overflow: hidden;
+				}
+				p{
+					padding: 15px 50px 0 0;
+					font-size: 14px;
+					color: #918989;
+					height: 57px;
+					overflow: hidden;
+				}
+			}
+		}
+	}
+	.page{
+		width: 511px;
+		margin:37px auto 0;
+		padding-bottom: 60px;
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+	/*新闻中心*/
+	.news_list{
+		width: 1017px;
+		margin:24px auto 0;
+		border-top: 2px solid #fff;
+		li{
+			border-bottom: 2px solid #fff;
+			position: relative;
+			width: 100%;
+			padding-top: 1px;
+			.rectangle{
+				width: 237px;
+				height: 170px; 
+				position: absolute;
+				left: 6px;
+				top: 28px;
+				z-index: 1;
+				box-shadow: 0 0 5px #8a8181;
+				border-radius: 20px;
+				img{
+					width: 100%;
+					height: 100%;
+					border-radius: 20px;
+				}
+			}
+			.list_detail{
+				position: relative;
+				height: 198px;
+				padding-left: 273px;
+				p{
+					font-size: 20.6px;
+					color: #000;
+					margin-top: 36px;
+					margin-right: 50px;
+				}
+				.rank{
+					position: absolute;
+					bottom: 50px;
+					margin-left: -10px;
+					width: 720px;
+					height: 25px;
+					line-height: 25px;
+					background-color: rgba(255,255,255,0.8); 
+					border-radius: 25px;
+					font-size: 18px;
+					color: #969797;
+					letter-spacing: 5px;
+					padding-left: 20px;
+					div{
+						position: absolute;
+						right: 20px;
+						top: 0;
+						letter-spacing: 0;
+					}
+				}
+			}
+		}
+	}
+}
+.arrow{
+	position: fixed;
+	bottom: 60px;
+	right: 80px;
+	cursor: pointer;
+	img{
+		display: block;
+	}
+}
+
+
+
+@media(max-width: 720px){
+	#culture{
+		min-width: 320px!important;
+		padding-top: 0!important;
+		background: url(../img/wapbg_c.jpg) repeat;
+		.culture_center{
+			width: 100%!important;
+		}
+		.banner{
+			width:100%!important;
+			#focus{
+				border-radius: 0!important;
+				border-bottom-left-radius: 1.2rem!important;
+				border-bottom-right-radius: 1.2rem!important;
+				.bd{ 
+			        border-radius: 0!important;
+					ul{
+						border-radius: 0!important;
+						li{
+						 	border-radius: 0!important;
+						 	border-bottom-left-radius: 1.2rem!important;
+							border-bottom-right-radius: 1.2rem!important;
+						 	overflow: hidden;
+						 	img{	
+					 			border-radius: 0!important;
+					 			height: 19rem!important;
+					 			width: 120%!important;
+					 			margin-left: -10%; 
+						 	}
+						 	.headline{	
+								height: 2.3rem!important;
+								line-height: 2.3rem!important;
+								border-bottom-right-radius:1.2rem!important;
+								border-bottom-left-radius:1.2rem!important;
+								p{
+									padding-left: 1.7rem!important;
+									font-size: 1rem!important;
+								} 
+						 	}
+						}
+					}
+				}  
+				.hd{
+					right: auto!important;
+					bottom: -2rem!important;
+					width: 100%;
+					text-align: center;
+					ul{	
+						li{
+							width: 3.5rem!important;      
+							height:0.3rem!important;      
+							background-color:#9fa0a0!important;      
+							border-radius: 0!important;      
+							-moz-border-radius: 0!important;      
+							-webkit-border-radius: 0!important; 
+							margin-left:1rem!important;
+							opacity:1!important;
+						}
+						.on{
+							width: 3.5rem!important; 
+							border-radius: 0!important;
+							background-color:#000!important;   
+						}
+					}
+				} 	
+			}
+			.banner_page{
+				width: 76.4%!important;
+				margin:5.6rem auto 0!important;
+			}
+		}
+		/*文化中心*/
+		.culture_list{
+			width: auto!important;
+			margin:2rem 2rem 0!important;
+			border-top: 1px solid #f0f0f0!important;
+			li{
+				border-bottom: none!important;
+				.circle{
+					width: 9rem!important;
+					height: 9rem!important;
+					left: 0!important;
+					top: 2.5rem!important;
+					box-shadow: 0 0 5px #8a8181!important;
+				}
+				.detail{
+					height:8rem!important;
+					margin:3rem 0 0 0!important;
+					background-color: rgba(0,0,0,0.03)!important;
+					padding-left: 10rem!important;
+					border-radius: 8rem!important;
+					.title{
+						font-size: 1.2rem!important;
+						padding: 1.3rem 2.5em 0 0!important;
+						line-height: 1.4rem!important;
+						max-height: 2.8rem!important;
+						@media(max-width: 586px){
+							overflow: hidden;
+							white-space: nowrap;
+							text-overflow: ellipsis;
+						}
+					}
+					p{
+						padding: .3rem 2.5rem 0 0!important;
+						@media(max-width: 452px){
+							font-size:12px!important;
+							line-height: 13px;
+							height: 39px!important;
+							overflow: hidden;
+						}
+					}
+				}
+			}
+			.page{
+				border-top: 1px solid #f0f0f0;
+				padding-top: 3rem;
+			}
+		}
+		.page{
+			width:auto!important;
+			padding-bottom: 3rem!important;
+			padding:0 1rem;
+			margin:2rem 0 0 0!important;
+		}
+
+		/*新闻列表*/
+		.news_list{
+			width: auto!important;
+			padding:0 2rem!important;
+			border-top: none!important;
+			background:rgba(255,255,255,0.8);
+			li{
+				border-top: 1px solid #f0f0f0!important;
+				padding-bottom: 1.25rem;
+				border-bottom:none!important;
+				.rectangle{
+					width: 11.1rem!important;
+					height: 8rem!important;					
+					left: .5rem!important;
+					top: 1.25rem!important;
+					box-shadow: 0 0 10px #8a8181!important;
+					border-radius: 1rem!important;
+					img{
+						border-radius: 1rem!important;
+					}
+				}
+				.list_detail{
+					height: 7.75rem!important;
+					padding-left: 12.5rem!important;
+					p{
+						font-size: 1rem!important;
+						margin-top: 1.5rem!important;
+						margin-right: 2rem!important;
+					}
+					.rank{
+						bottom: .5rem!important;
+						margin-left: 0!important;
+						width: 50%;
+						height: 1.15rem!important;
+						line-height: 1.15rem!important;
+						background-color: rgba(0,0,0,0.1)!important; 
+						border-radius: 1.15rem!important;
+						font-size: 0.8rem!important;
+						padding-left: .6rem!important;
+						div{
+							right: 1rem!important;
+						}
+					}
+				}
+				@media(max-width: 500px){
+					.rectangle{
+						width: 9rem!important;
+						height: 7rem!important;					
+					}
+					.list_detail{
+						height: 6.5rem!important;
+						padding-left: 10.5rem!important;
+						p{
+							max-height: 2.8rem;
+							overflow: hidden;
+						}
+					}
+					.rank{
+						letter-spacing: 0!important;
+					}
+				}
+			}
+			.page{
+				margin:0rem 0 0 0!important!important;
+				border-top: none!important;
+			}
+		}
+	}
+	.arrow{
+		display: none;
+	}
+}
+

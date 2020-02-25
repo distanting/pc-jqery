@@ -1,0 +1,221 @@
+@media screen and (max-width:1280px){
+.comtem{
+	padding-top: 0px;
+		transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+-webkit-transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+-moz-transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+}
+
+.comtem .section_1 i{
+	transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+-webkit-transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+-moz-transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+width: 336px;
+top:260px
+
+}
+.comtem .section_2{
+
+}
+.comtem .section_1{
+	height: 600px;
+		transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+-webkit-transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+-moz-transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+}
+.comtem .section_2 .imgbox1{
+	padding-left: 0px;
+	text-align: center;
+}
+.comtem .section_2 .imgbox2{
+	padding-left: 0px;
+	text-align: center;
+}
+.comtem .section_2 .imgbox2{
+	margin-bottom: 90px;
+}
+
+.comtem .section_1 .words .desc{
+	width: 57%
+}
+
+}
+
+@media screen and (max-width:992px){
+	.comtem .section_1 .dowm{
+		right: 0px;
+	}
+	.comtem .section_1 .words .desc{
+		width: 70%
+	}
+.comtem .section_1 i{
+	width: 200px
+}
+.comtem{
+	overflow-x: hidden;
+}
+.comtem .section_1{
+	padding-left: 0px;
+}
+}
+@media screen and (max-width:640px){
+	.comtem .section_1 .logo{
+		display: none;
+	}
+.comtem .section_1{
+	padding-top: 0px;
+	height: auto;
+}
+.comtem .section_1 .dowm{position: absolute;
+right: 0;
+top: 40px}
+.comtem .section_1 .words *{
+	transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+-webkit-transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+-moz-transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+}
+.comtem .section_1 .words h1{
+	padding-left: 17%;
+	font-size: 1.8rem;
+}
+.comtem .section_1 .words h2{
+	padding-left: 18%;
+	font-size: 2.5rem;
+}
+.comtem .section_1 .words h2 em{
+	font-size:1.7rem
+}
+body{
+background: url(../images/body.jpg) no-repeat center top;
+background-size: cover
+}
+.comtem .section_1 .words .desc{
+	width: 82%;
+	margin-left: 18%;
+	background: #d0ff85;
+	height: auto;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	padding-left: 2%;
+	margin-right: 0px;
+}
+.comtem .section_1 .words .desc h3{
+	font-size: 1.4rem
+}
+.comtem .section_1 .words .desc p{
+	font-size: 1.2rem
+}
+.comtem .section_1 .words2 {
+	padding-top: 3%;
+	zoom:1;
+	padding-left: 10%;
+	overflow:hidden;
+}
+.comtem .section_1 .words2 .sq{
+	float: right;
+	font-size: 1.5rem
+;
+	margin-right: 12px;
+}
+.comtem .section_1 .words2 .num{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 1.6rem;
+	margin-top: 0px;
+}
+.comtem .section_1 .words2 strong{
+	font-size: 1.2rem
+}
+html{
+	font-size: 55.55%;
+}
+.comtem .section_1 i{
+	position: static;
+	display: block;
+	width: 100%;
+	background-size:auto 100%;
+	background-position: center center;
+	height: 300px;
+	margin-top: 10%;
+}
+.comtem .section_2{
+	padding-top: 12%;
+}
+.comtem .section_2 img{
+	width: 70%
+}
+.comtem .section_2 *{
+	padding: 0px 20px
+}
+.comtem .section_2 .imgbox1{
+text-align: left;
+}
+.comtem .section_2 .imgbox2{
+text-align: right;
+}
+.comtem .section_2 .imgbox1{
+	padding-bottom: 10%;
+}
+.wap{
+	display: block;
+}
+.pc{
+	display: none;
+}
+.picbox{
+	margin-bottom: 10%;
+}
+.picbox img{
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+.book2{
+	margin-bottom: 9%;
+}
+.wapnav{
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	z-index: 1234;
+}
+.wapnav li a{
+	display: block;
+	background: #262626;
+	border-bottom: 1px solid #fff;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 1.5rem
+}
+.wapnav li a img{
+height: 20px;
+margin-right: 10px;
+}
+.h190{
+	height: 190px;
+}
+.section_1 a.return{
+position: absolute;
+left: 20px;
+top: 5px;
+width: 30px;
+height: 30px;
+background: url(../images/return.png) no-repeat center center;
+background-size: contain;
+}
+.comtem .section_1 .words2 .num img {
+    max-width: 74%;
+    position: relative;
+    top: -2px;
+}
+.book{
+
+}
+}

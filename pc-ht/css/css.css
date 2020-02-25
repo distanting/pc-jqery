@@ -1,0 +1,404 @@
+@charset "utf-8";
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr, span {
+	margin: 0;
+	padding: 0;
+}
+html {font-size: 62.5%;/*10 ÷ 16 × 100% = 62.5%*/}
+body {font-size: 1.4rem;/*1.4 × 10px = 14px */}
+
+body {
+	font-family: "Microsoft YaHei" ! important;
+	color: #000000;
+	background: #fff;
+	margin: 0 auto;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+	color: #235aa7;
+	outline: none;
+}
+a:active {
+star:expression(this.onFocus=this.blur());
+}
+img {
+	border: 0px;
+	vertical-align: middle;
+}
+
+li {
+	list-style: none;
+}
+
+body{
+	transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+-webkit-transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+-moz-transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+	background: url(../images/bj.png) no-repeat center top;
+}
+.comtem{
+	/* padding-top: 113px; */
+}
+
+.wap{
+	display: none;
+}
+.comtem .section_1{
+	padding-left: 150px;
+	height: 800px;
+	background-size: 490px;
+	padding-top: 50px;
+	position: relative;
+}
+.comtem .section_2  *{
+	transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+-webkit-transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+-moz-transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+}
+.comtem .section_2  {
+	transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+-webkit-transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+-moz-transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+}
+.comtem .section_1 i{
+width: 536px;
+height: 611px;
+background: url(../images/bj2.png) right top no-repeat ;
+background-size: contain;
+position: absolute;
+right: 0px;
+top: 0px;
+top: 119px;right: 50px;
+}
+
+.comtem .section_1 .logo{
+	float: left;
+}
+.comtem .section_1 .logo img{
+	
+}
+
+.comtem .section_1 .dowm{
+	float: right;
+	margin-right: 23px;
+	margin-top: 12px;
+	position: relative;
+	position: fixed;
+	right: 20%;
+	z-index: 10;
+}
+.comtem .section_1 .dowm .h2iti{
+	cursor: pointer;
+	position: relative;
+	z-index: 7;
+	font-size: 0px;
+	margin-bottom: 5px;
+}
+
+.comtem .section_1 .dowm .h2iti img{
+	
+}
+.comtem .section_1 .dowm .slide{
+position: absolute;
+top: 60px;
+visibility: hidden;
+width: 173px;
+background: rgba(0,0,0,0.4);
+color: #fff;
+text-align: center;
+right: 0px;
+font-size: 1.2rem;
+padding-top: 26px;
+padding-bottom: 26px;
+z-index: 4;
+line-height: 1.6rem;
+opacity: 0;
+transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+-webkit-transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+-moz-transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+z-index: -1;
+}
+.comtem .section_1 .dowm .slide.cu{
+top: 0px;
+opacity: 1;
+z-index: 3;
+visibility: visible
+}
+.comtem .section_1 .dowm .slide a{
+color: #fff;
+}
+.comtem .section_1 .words{
+	clear: both;
+	padding-top: 74px;
+}
+.comtem .section_1 .words h1{
+	padding-left: 100px;
+	font-size: 3.6rem;
+	color: #000000
+}
+.comtem .section_1 .words h2{
+	padding-left: 100px;
+	font-size: 5rem;
+	font-weight: bold;
+	color: #000000;
+	margin-bottom: 1%;
+}
+
+.comtem .section_1 .words h2 em{
+	 font-size: 3rem;
+	 font-weight: bold;
+	 font-style: normal;
+}
+.comtem .section_1 .words .desc{
+	 width: 693px;
+	 height: 122px;
+	 background: url(../images/jx.png) no-repeat left top;
+	 margin-left: 86px;
+	 padding-left: 1.5%;
+	 padding-top: 1%;
+}
+.comtem .section_1 .words .desc h3{
+	 font-size: 2.5rem
+}
+.comtem .section_1 .words .desc p{
+	 font-size: 1.8rem;
+}
+.comtem .section_1 .words2{
+	 padding-left: 10px;
+}
+
+.comtem .section_1 .words2 .num{
+	 width: 67px;
+	 height: 67px;
+	 border-radius: 100px;
+	 background: #0e050b;
+	 color: #fff;
+	 text-align: center;
+	 line-height: 67px;
+	 font-size: 3.5rem;
+	 display: inline-block;
+	 margin-top: -10px;
+	 margin-right: 2%;
+}
+.comtem .section_1 .words2 .num img{
+max-width:100%;
+position:relative;
+top:-7px;
+}
+.comtem .section_1 .words2 strong{
+	 font-size: 2rem;
+	 color: #000000;
+	 font-weight: normal;
+	 display: inline-block;
+	 vertical-align: middle;
+}
+
+.comtem .section_1 .words2 .sq{
+	 font-size: 2rem;
+	 display: inline-block;
+	 width: 84px;
+	 height: 28px;
+	 text-align: center;
+	 line-height: 26px;
+	 cursor: pointer;
+	 color: #fff;
+	 font-size: 1.4rem;
+	 background: url(../images/yj.png) no-repeat center center;
+	 font-weight: normal;
+}
+
+a:focus{
+	outline: none
+}
+
+.modal-content{
+	border-radius: 20px;
+}
+.modal-content .h2tit{
+	line-height: 50px;
+		line-height: 50px;
+	background: #323232;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	font-size: 2.8rem;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.modal-content .h2tit .close{
+	position: absolute;
+	z-index: 3;
+	left: 20px;
+		line-height: 50px;
+	top: 0px;
+	color: #fff;
+	font-size: 3rem;
+}
+
+
+.modal-content .h2tit span{
+	
+}
+
+
+.modal-content .modal-body{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.modal-content .modal-body .words{
+display: block;
+
+height: 35px;
+border:none;	
+background: #e4e4e4;
+text-align: center;
+margin: auto;
+min-width: 90px;
+border-radius: 40px;
+font-size: 1.5rem;
+color: #656565;
+padding: 0px 15px;margin-bottom: 15px;
+}
+*:focus{
+	outline: none;
+}
+
+
+
+
+.modal-content .modal-body .send{
+	width: 289px;
+	height: 47px;
+	font-size: 2rem;
+	color: #fff;
+	border: none;
+	background: none;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: url(../images/sq.png) no-repeat center center;
+
+}
+
+.modal.fade.in{
+	padding: 0px !important
+}
+
+
+.comtem .section_2{
+	padding-top: 135px;
+}
+.comtem .section_2 .imgbox1{
+	padding-left: 250px;
+	padding-bottom: 113px;
+
+}
+.comtem .section_2 .imgbox2{
+	padding-left: 532px;
+	margin-bottom: 252px;
+}
+
+.comtem .section_3{
+	text-align: center;
+	padding-bottom: 10%;
+}
+.comtem .section_3 .content{
+	display: inline-block;
+	position: relative;
+}
+.comtem .section_3 .content .i1{
+	position: absolute;
+left: -144px;
+top: -105px;
+}
+.comtem .section_3 .content .i2{
+		position: absolute;
+left: -140px;
+bottom: 0px;
+}
+
+.comtem .section_3 .content .words{
+	width: 324px;
+	background: #0d0d0d;
+	color: #fff;
+	font-size: 1.8rem;
+	padding: 12% 0px;
+}
+.comtem .section_3 .content .words a{
+	color: #fff;
+}
+.book2{
+	margin-bottom:200px;
+}
+
+
+
+a{
+	text-decoration: none !important;
+}
+
+
+.model1{
+	position: relative;
+}
+
+
+
+
+.comtem .section_1 .dowm .slide.slide2{
+	width: 78px;
+	right: -24px;
+	background: none;
+	height: 105px;
+	/* text-align: center; */
+	padding: 0px;
+	background: url(../images/shadow.png) no-repeat center center;
+}
+.comtem .section_1 .dowm .slide.slide2.cu{
+	top: 31px;
+
+}
+.comtem .section_1 .dowm .slide.slide2{
+
+text-align: left;
+}
+.comtem .section_1 .dowm .slide.slide2 em{
+	display: block;
+	font-style: normal;
+	font-size: 12px;
+	padding-top: 10px;
+	text-align: center;
+}
+.comtem .section_1 .dowm .slide.slide2 a{
+	display: block;
+	line-height: 22px;
+	padding-left: 6px;
+	font-size: 10px;
+}
+.comtem .section_1 .dowm .slide.slide2 a img{
+	margin-right: 0px;
+}
+.comtem .section_1 .dowm .slide.slide2 a span{
+	
+}
+.buttons a:nth-child(2){
+	visibility: hidden;
+}
+.buttons a:nth-child(1){
+width: 100%;
+text-align: center;
+margin-top: 20px;
+}
+
+.buttons a:nth-child(1) span{
+display: inline-block;
+border:2px solid #000;
+color: #000;
+padding: 0px 34px;
+border-radius: 540px;
+line-height: 40px;
+font-size: 2rem;
+}

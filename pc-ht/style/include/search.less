@@ -1,0 +1,209 @@
+.search_page{
+	width: 100%;
+	height: auto;
+	max-width: 1920px;
+	background: url(../img/search_bg.jpg) repeat;
+	min-width: 890px;
+	.sear_con{
+		width: 890px;
+		height: auto;
+		margin:0 auto;
+		.sear_logo{
+			padding:60px 0;
+			text-align: center;
+			img{
+				font-size: 0;
+			}
+		}
+		.sear_input{
+			width: 88.7%;
+			height: 56px;
+			margin:0 auto;
+			position: relative;
+			input{
+				padding-left: 4.8%;
+				width: 95.2%;
+				height: 100%;
+				background-color: #e6e6e6;
+				border:2px solid #fff;
+				border-radius: 56px;
+				font-size: 20px;
+			}
+			a{
+				position: absolute;
+				top: 0;
+				right: 35px;
+				line-height: 56px;
+				img{
+					vertical-align: middle;
+				}
+			}
+		}
+		ul{
+			margin-top: 70px;
+			width: 100%;
+			border-top: 2px solid #fff;
+			li{
+				width: 100%;
+				border-bottom: 2px solid #fff;
+				position: relative;
+				.sear-circle{
+					position: absolute;
+					top: -17.5px;
+					left: 16%;
+					width: 195px;
+					height: 195px;
+					border-radius: 50%;
+					-moz-border-radius: 50%;
+					-webkit-border-radius: 50%;
+					box-shadow: 0px 0px 12px #a3a1a1;
+					img{
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+						-webkit-border-radius: 50%;
+					}
+				}
+				.sear-con{
+					width: 61%;
+					height: 160px;
+					margin:70px auto;
+					background-color: rgba(255,255,255,0.4);
+					border-radius: 50px;
+					.names{
+						padding-left: 205px;
+						padding-top: 24px;
+						.nm{
+							font-size: 25px;
+							color: #2b2b2b;
+							display: block;
+							line-height: 25px;
+						}
+						.name{
+							font-size: 35.7px;
+							line-height: 35.7px;
+							color: #000;
+							display: block;
+							overflow: hidden;
+							white-space: nowrap;
+							text-overflow: ellipsis;
+						}
+					}
+					.icon{
+						padding-left: 205px;
+						margin-top: 12px;
+						overflow: hidden;
+						white-space: nowrap;
+						text-overflow: ellipsis;
+						position: relative;
+						height: 46px;
+						span{
+							position: absolute;
+							bottom: 0;
+							margin-left: 10px;
+							font-size: 20px;
+							color: #000;
+						}
+					}
+					&:hover{
+						box-shadow: 0px 0px 12px #a3a1a1;
+					}
+				}
+			}
+		}
+	}
+}
+.sear_top{
+	position: fixed;
+	right: 10vw;
+	bottom: 10vh;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 720px) { html{ font-size: 20px!important;}}
+@media (max-width: 586px) { html{ font-size: 16px!important;}}
+@media (max-width: 452px) { html{ font-size: 12px!important;}} 
+@media(max-width: 720px){
+	.sear_top{
+		display: none;
+	}
+	.search_page{
+		max-width: 720px!important;
+		min-width: 320px!important;
+		.sear_con{
+			width: 92%!important;
+			.sear_logo{
+				padding:2.5rem 0!important;
+				img{
+					width: 9.6rem;
+					height: 12.25rem;
+				}
+			}
+			.sear_input{	
+				height: 2.8rem!important;
+				input{
+					border-radius: 2.8rem!important;
+					font-size: 1.1rem!important;
+				}
+				a{
+					right: 1.5rem!important;
+					line-height: 2.8rem!important;
+					img{
+						width: 1.4rem!important;
+						height: 1.4rem!important;
+					}
+				}
+			}
+			ul{
+				margin-top: 3.5rem!important;
+				li{
+					.sear-circle{
+						top: -0.85rem!important;
+						left: 0!important;
+						width: 9.75rem!important;
+						height: 9.75rem!important;
+					}
+					.sear-con{
+						width: 90%!important;
+						height: 8rem!important;
+						margin:3rem auto!important;
+						border-radius: 2.5rem!important;
+						.names{
+							padding-left: 9rem!important;
+							padding-top: 1.2rem!important;
+							.nm{
+								font-size: 1.25rem!important;
+								line-height: 1.25rem!important;
+							}
+							.name{
+								font-size: 1.7rem!important;
+								line-height: 1.7rem!important;
+							}
+						}
+						.icon{
+							padding-left: 9rem!important;
+							margin-top: 0.6rem!important;
+							height: 2.3rem!important;
+							img{
+								width: 2.3rem;
+								height: 2.3rem;
+							}
+							span{
+								margin-left: 0.5rem!important;
+								font-size: 1.1rem!important;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

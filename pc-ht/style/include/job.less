@@ -1,0 +1,136 @@
+.job{
+	max-width: 1920px;
+	min-width: 1067px;
+	/*max-height: 1080px;*/
+	min-height: 600px;
+	width:100%;
+	height: 56.2vw;
+	background: url(../img/job_bg.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	.job_detail{
+		position: absolute;
+		right: 47.8%;
+		width: 418px;
+		top: 50%; 
+    	transform: translate(0, -50%);
+		.jHead{
+			color: #000;
+			margin-left: 10px;
+			div{
+				font-size: 1.86rem;
+				position: relative;
+				&:before{
+					content: "";
+					width: 14px;
+					height: 14px;
+					border-radius: 50%;
+					background: #606060;
+					position: absolute;
+					left: -1.2rem;
+					top: .9rem;
+				}
+			}
+			p{
+				font-size: 1.17rem;
+			}
+		}
+		.jInfor{
+			margin:1rem 0 1.55rem;
+			border: 5px solid #595757;
+			padding: 0.89rem 1.22rem 0.89rem 0.94rem;
+			font-size:0.78rem;
+			line-height: 1.67rem;
+			color: #6a6868;
+		}
+		.jWant{
+			width: 100%;
+			li{
+				width: 100%;
+				height: 5rem;
+				line-height: 5rem;
+				margin-bottom: 5px;
+				text-align: center;
+				a{
+					display: block;
+					color: #fff;
+					font-size: 1.11rem;
+				}
+			}
+			li:first-child{
+				background: #494949;
+			}
+			li:nth-child(2){
+				background: #767575;
+			}
+			li:last-child{
+				background: #888888;
+			}
+		}
+		.jNote{
+			margin-top: 1.61rem;
+			font-size: 0.75rem;
+			color: #6a6868;
+			span{
+				float: right;
+			}
+		}
+	}
+	.job_img{
+		position: absolute;
+		right: 0;  
+    	top: 50%; 
+    	transform: translate(0, -50%);
+    	width: 37%; 
+		img{
+			width: 100%;
+			height: auto;
+			max-width: 709px;
+		}
+	}
+}
+@media(max-width: 720px){
+	.job{
+		max-width: 720px!important;
+		min-width: 320px!important;
+		min-height: auto!important;
+		height: auto!important;
+		.job_detail{
+			position: static!important;
+			right: auto!important;
+			width: auto!important;
+			top: auto!important;
+	    	transform: none!important;
+	    	padding:0 12%;
+			.jHead{
+				padding-top: 4.5rem;
+				div{
+					font-size: 2rem!important;
+				}
+				p{
+					font-size: 1.3rem!important;
+				}
+			}
+			.jInfor{
+				margin:1.3rem 0 1.8rem!important;
+				border: .5rem solid #595757!important;
+				padding: 1.3rem .9rem!important;
+				font-size:1rem!important;
+			}
+			.jNote{
+				margin-top: 4rem!important;
+				padding-bottom: 8rem;
+				margin-left: 1rem;
+				font-size: 1.1rem!important;
+				span{
+					float: none!important;
+					display: block;
+					margin-top: 1.1rem;
+				}
+			}
+		}
+		.job_img{
+			display: none;
+		}
+	}
+}

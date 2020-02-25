@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>招聘详情</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+	<link href="style/index.css" rel="stylesheet" type="text/css">
+	<link href="style/colorbox.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+</head>
+<body>
+	<!-- 罩子 -->
+	<div id="not_click"></div>
+	<!-- 菜单 -->
+	<div id="menu">
+		<div id="menu_title">
+			<span id="t1">菜</span>
+			<span id="t2">单</span>
+		</div>
+		<div id="menu_contant">
+			<div class="logo">
+				<a href="index.html"><img src="img/menu_logo.png"></a>
+			</div>
+			<ul class="nav">
+
+				<li>
+					<div class="nav_title"><a href="javascript:">关于海通</a></div>
+					<ul class="navabout">
+						<li class="content1">
+							<a href="about.html">
+								<img src="img/menu1.jpg">
+							</a>
+						</li>
+						<li class="content2">
+							<a href="about.html">
+								<img src="img/menu2.jpg">
+							</a>
+							<ul class="brand_detail">
+								<li><a href="javascript:">海通色纱仓库</a></li>
+								<li><a href="javascript:">海通色纱工厂</a></li>
+								<li><a href="javascript:">匠心海通</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<div class="nav_title"><a href="javascript:">产品中心</a></div>
+					<ul class="navproduct">
+						<li class="pcontent1">
+							<div id="focus" class="focus">
+								<div class="bd">
+									<ul>
+										<li>
+											<a href="javascript:"><img src="img/navp1.png"></a>
+										</li>
+										<li>
+											<a href="javascript:"><img src="img/navp1.png"></a>
+										</li>
+										<li>
+											<a href="javascript:"><img src="img/navp1.png"></a>
+										</li>
+									</ul>
+								</div>
+								<div class="hd">
+									<ul>
+										<li></li><li></li><li></li>
+									</ul>
+								</div>
+								<a href="javascript:" class="prev" id="P"></a>
+								<a href="javascript:" class="next" id="R"></a>
+							</div>
+							<script type="text/javascript">
+								jQuery(".focus").slide({mainCell:".bd ul",autoPlay:true,interTime:5000,mouseOverStop:false});
+							</script>
+						</li>
+						<li class="picScroll-left">
+							<a class="prev"><img src="img/left.png"></a>
+							<div class="bd">
+								<ul>
+									<li>
+										<a href="javascript:">
+											<img src="img/book1.png">
+											<img src="img/book1_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book2.png">
+											<img src="img/book2_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book3.png">
+											<img src="img/book3_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book4.png">
+											<img src="img/book4_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book5.png">
+											<img src="img/book5_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book6.png">
+											<img src="img/book6_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book7.png">
+											<img src="img/book7_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book8.png">
+											<img src="img/book8_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book9.png">
+											<img src="img/book9_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book10.png">
+											<img src="img/book10_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book11.png">
+											<img src="img/book11_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book12.png">
+											<img src="img/book12_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book13.png">
+											<img src="img/book13_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book14.png">
+											<img src="img/book14_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book15.png">
+											<img src="img/book15_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book16.png">
+											<img src="img/book16_1.png">
+										</a>
+									</li>
+								</ul>
+							</div>
+							<a class="next"><img src="img/right.png"></a>
+							<div class="pro_imgdetial">
+								<div>
+									<a href="product.html">
+										<img src="img/book1_1_1.jpg">
+									</a>
+									<i id="pro_back"></i>
+								</div>
+							</div>
+						</li>
+						<script type="text/javascript">
+							jQuery(".picScroll-left").slide({mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:15,trigger:"click"});
+						</script>
+					</ul>
+				</li>
+
+				<li>
+					<div class="nav_title"><a href="javascript:">新闻中心</a></div>
+					<ul class="navnews">
+						<li class="content1">
+							<a href="culture.html">
+								<img src="img/menu3.jpg">
+							</a>
+						</li>
+						<li class="content2">
+							<a href="culture.html">	
+								<img src="img/menu4.jpg">
+							</a>
+						</li>
+					</ul>
+				</li>
+
+				<li class="current">
+					<div class="nav_title"><a href="javascript:">联系我们</a></div>
+					<ul class="navcontact">
+						<li class="content1">
+							<a href="contact.html">
+								<img src="img/menu5.jpg">
+							</a>
+						</li>
+						<li class="content2">
+							<a href="job.html">
+								<img src="img/menu6.jpg">
+							</a>
+						</li>
+					</ul>
+				</li>
+
+			</ul>
+			<div class="search">
+				<div class="search_img"></div>
+				<div class="search_content">
+					<input type="text" name="" placeholder="搜索">
+					<i><img src="img/c1.png"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 手机端菜单 -->
+	<div class="wap_menu">
+		<ul>
+			<li class="wmenu_list">
+				<div class="menu_icon"><img src="img/wap_menu.png"></div>
+				<!-- 菜单内容 -->
+				<div class="list_con">
+					<div class="c2"><img src="img/c2.png"></div>
+					<div class="con_logo"><img src="img/logo1.png"></div>
+					<ul class="ul1">
+						<li>
+							<div class="ul1_headline">关于海通</div>
+
+							<div class="ul1_con">
+								<div class="ul1_t">关于海通</div>
+								<ul class="con_about">
+									<li>
+										<a href="javascript:"><img src="img/menu1.jpg"></a>
+									</li>
+									<li>
+										<a href="javascript:"><img src="img/menu2.jpg"></a>
+									</li>
+								</ul>
+							</div>
+
+						</li>
+						<li>
+							<div class="ul1_headline">产品中心</div>
+
+							<div class="ul1_con">
+								<div class="ul1_t">产品中心</div>
+								<ul class="con_product">
+									<li><a href="javascript:">
+										<i><img src="img/wap_now.png"></i>新品推荐
+									</a></li>
+									<li><a href="javascript:">
+										<i><img src="img/wap_hot.png"></i>热销产品
+									</a></li>
+									<li><a href="javascript:">
+										<i><img src="img/wap_all.png"></i>所有产品
+									</a></li>
+								</ul>
+							</div>
+
+						</li>
+						<li>
+							<div class="ul1_headline">新闻中心</div>
+							<div class="ul1_con">
+								<div class="ul1_t">新闻中心</div>
+								<ul class="con_news">
+									<li>
+										<a href="javascript:"><img src="img/menu3.jpg"></a>
+									</li>
+									<li>
+										<a href="javascript:"><img src="img/menu4.jpg"></a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<li>
+							<div class="ul1_headline">联系我们</div>
+							<div class="ul1_con">
+								<div class="ul1_t">联系我们</div>
+								<ul class="con_contact">
+									<li>
+										<a href="javascript:"><img src="img/menu5.jpg"></a>
+									</li>
+									<li>
+										<a href="javascript:"><img src="img/menu6.jpg"></a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+					</ul>
+					<ul class="ul2">
+						<li><a href="javascript:">
+							<i><img src="img/tel.png"></i>0769-83191467
+						</a></li>
+						<li><a href="javascript:">
+							<i><img src="img/message.png"></i>在线咨询</a>
+						</li>
+						<li><a href="javascript:">
+							<i><img src="img/add.png"></i>公司地址
+						</a></li>
+						<li><a href="javascript:">
+							<i><img src="img/job.png"></i>招贤纳士
+						</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="wlogo">
+				<a href="javascript:"><img src="img/wap_logo.png"></a>
+			</li>
+			<li class="wsearch">
+				<img src="img/wap_search.png">
+				<div class="ws_con">
+					<input type="text" name="" placeholder="搜索">
+					<i><img src="img/c1.png"></i>
+				</div>
+			</li>
+			<li>
+				<a href="javascript:"><img src="img/wap_home.png"></a>
+			</li>
+		</ul>
+	</div>
+
+
+
+
+	<div class="job">
+		<div class="job_detail">
+			<div class="jHead">
+				<div>人才理念</div>
+				<p>人尽其才 才尽其用 共同发展 共享成功</p>
+			</div>
+			<p class="jInfor">以人为本是海通纺织的坚持。在培训员工方面，我们对员工要求热爱生活、热爱工作，培养员工责任感。海通定期的企业文化活动中，员工会在海通这个大家庭中，感受到一种活跃、积极奋发的氛围。对员工负责，做好员工扎实的技能基础，做好员工精神面貌的提升，对员工的未来长远的谋划。</p>
+			<ul class="jWant">
+				<li><a class="inline" href="#inline-content">货车司机</a></li>
+				<li><a href="javascript:">仓库管理员</a></li>
+				<li><a href="javascript:">跟单业务员</a></li>
+			</ul>
+			<div class="jNote">
+				招聘联系方式-0769-83191467<span>招聘联系邮箱-ht3367@163.com</span>
+			</div>
+		</div>
+		<div class="job_img">
+			<img src="img/job_r.png">
+		</div>
+	</div>
+	<style type="text/css">
+		#cboxOverlay{background-color: rgba(0,0,0,.8);}
+		#colorbox{
+			width: 520px!important;
+			height: 443px!important;
+			left: 0!important;
+			right: 0;
+			top: 0!important;
+			bottom: 0;
+			margin:auto;
+		}
+		#cboxLoadedContent #inline-content{
+			width: 520px;
+			height: 443px;
+			background: #fff;
+		}
+		#cboxLoadedContent #inline-content .head{
+			height: 65px;
+			line-height: 75px;
+			width: 451px;
+			margin:0 auto;
+			border-bottom: 2px solid #e5e5e5;
+			font-size: 20px;
+		}
+		#cboxLoadedContent #inline-content .head span{
+			padding-left: 40px;
+		}
+		#cboxLoadedContent #inline-content .content{
+			width: 451px;
+			margin:0 auto;
+			font-size: 12px;
+			margin-top: 24px;
+		}
+		#cboxLoadedContent #inline-content .content p{
+			line-height: 24px;
+		}
+		#cboxClose{
+			position:absolute; 
+			top:27px; 
+			left: 39px;
+			background:url(img/job-back.png) no-repeat; 
+			width:26px; 
+			height:27px; 
+			text-indent:-9999px;
+			border: 0 none;
+		}
+		@media(max-width: 720px){
+			#colorbox{
+				margin:0 2.5%;
+				width: 95%!important;
+				top: 3rem!important;
+				height: 100vh!important;
+				overflow-y: scroll;
+				left: auto!important;
+				right: auto!important;
+				bottom: auto!important;
+			}
+			#cboxWrapper,#cboxContent,#cboxLoadedContent,#cboxLoadedContent #inline-content{
+				width: 100%!important;
+				height: auto!important;
+			}
+			#cboxLoadedContent #inline-content .head{
+				height: 3.5rem!important;
+				line-height: 3.5rem!important;
+				width: 90%!important;
+				font-size: 0!important;
+			}
+			#cboxLoadedContent #inline-content .content{
+				width: 90%!important;
+				font-size: .9rem!important;
+				margin-top: 1.5rem!important;
+				padding-bottom: 3rem;
+			}
+			#cboxLoadedContent #inline-content .content p{
+				line-height: 1.8rem!important;
+			}
+
+			#cboxClose{
+				top:1rem!important; 
+				left: 5%!important;
+			}
+		}
+
+	</style>
+	<!-- 弹窗 -->
+	<div style="display:none">
+		<div id="inline-content">
+			<div class="head">
+				<span>返回</span>
+			</div>
+			<ul class="content">
+				<li>
+					<p>岗位职责：</p>
+					<p>1、根据客户的要求下单、跟进订单的生产进度并及时反馈，确保客户的交货期。</p> 
+					<p>2、维护新老客户，重视客户的需求与投诉并计时处理相关的售后工作；</p>
+					<p>3、定期对客户进行电话回访；</p>
+					<p>4、负责对账及催收贷款的工作，对应收款项进行统计及跟踪。</p>
+					<p>5、跟踪产品的到货时间及质量状况，并及时向上级反馈。</p>
+					<p>6、完成领导交办的其他工作。</p>
+				</li>
+				<li>
+					<p>职位要求：</p>
+					<p>1、男女不限，22——32高中或中专以上学历，1年以上的纺织行业工作经验，</p>
+					<p>2、熟练使用办公软件，普通话流利，积极上进，形象佳；</p>
+					<p>3、具有团队意识和一定的抗压能力，善于与人沟通交流，协调能力强。</p>
+				</li>
+				<li>
+					<p>工资待遇：3000-5000元</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".inline").colorbox({inline:true});
+		});
+	</script>
+	
+	<script src="js/index.js"></script>
+
+	<div class="wap_footer">
+		<ul class="ul2">
+			<li><a href="javascript:">
+				<i><img src="img/tel.png"></i>0769-83191467
+			</a></li>
+			<li><a href="javascript:">
+				<i><img src="img/message.png"></i>在线咨询
+			</a></li>
+			<li><a href="javascript:">
+				<i><img src="img/add.png"></i>公司地址
+			</a></li>
+			<li><a href="javascript:">
+				<i><img src="img/job.png"></i>招贤纳士
+			</a></li>
+		</ul>
+	</div>
+</body>
+</html>

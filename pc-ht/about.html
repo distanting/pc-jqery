@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>企业简介</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+	<link href="style/index.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+	<!-- 罩子 -->
+	<div id="not_click"></div>
+	<!-- 菜单 -->
+	<div id="menu">
+		<div id="menu_title">
+			<span id="t1">菜</span>
+			<span id="t2">单</span>
+		</div>
+		<div id="menu_contant">
+			<div class="logo">
+				<a href="index.html"><img src="img/menu_logo.png"></a>
+			</div>
+			<ul class="nav">
+
+				<li class="current">
+					<div class="nav_title"><a href="javascript:">关于海通</a></div>
+					<ul class="navabout">
+						<li class="content1">
+							<a href="about.html">
+								<img src="img/menu1.jpg">
+							</a>
+						</li>
+						<li class="content2">
+							<a href="about.html">
+								<img src="img/menu2.jpg">
+							</a>
+							<ul class="brand_detail">
+								<li><a href="javascript:">海通色纱仓库</a></li>
+								<li><a href="javascript:">海通色纱工厂</a></li>
+								<li><a href="javascript:">匠心海通</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<div class="nav_title"><a href="javascript:">产品中心</a></div>
+					<ul class="navproduct">
+						<li class="pcontent1">
+							<div id="focus" class="focus">
+								<div class="bd">
+									<ul>
+										<li>
+											<a href="javascript:"><img src="img/navp1.png"></a>
+										</li>
+										<li>
+											<a href="javascript:"><img src="img/navp1.png"></a>
+										</li>
+										<li>
+											<a href="javascript:"><img src="img/navp1.png"></a>
+										</li>
+									</ul>
+								</div>
+								<div class="hd">
+									<ul>
+										<li></li><li></li><li></li>
+									</ul>
+								</div>
+								<a href="javascript:" class="prev" id="P"></a>
+								<a href="javascript:" class="next" id="R"></a>
+							</div>
+							<script type="text/javascript">
+								jQuery(".focus").slide({mainCell:".bd ul",autoPlay:true,interTime:5000,mouseOverStop:false});
+							</script>
+						</li>
+						<li class="picScroll-left">
+							<a class="prev"><img src="img/left.png"></a>
+							<div class="bd">
+								<ul>
+									<li>
+										<a href="javascript:">
+											<img src="img/book1.png">
+											<img src="img/book1_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book2.png">
+											<img src="img/book2_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book3.png">
+											<img src="img/book3_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book4.png">
+											<img src="img/book4_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book5.png">
+											<img src="img/book5_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book6.png">
+											<img src="img/book6_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book7.png">
+											<img src="img/book7_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book8.png">
+											<img src="img/book8_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book9.png">
+											<img src="img/book9_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book10.png">
+											<img src="img/book10_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book11.png">
+											<img src="img/book11_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book12.png">
+											<img src="img/book12_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book13.png">
+											<img src="img/book13_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book14.png">
+											<img src="img/book14_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book15.png">
+											<img src="img/book15_1.png">
+										</a>
+									</li>
+									<li>
+										<a href="javascript:">
+											<img src="img/book16.png">
+											<img src="img/book16_1.png">
+										</a>
+									</li>
+								</ul>
+							</div>
+							<a class="next"><img src="img/right.png"></a>
+							<div class="pro_imgdetial">
+								<div>
+									<a href="product.html">
+										<img src="img/book1_1_1.jpg">
+									</a>
+									<i id="pro_back"></i>
+								</div>
+							</div>
+						</li>
+						<script type="text/javascript">
+							jQuery(".picScroll-left").slide({mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:15,trigger:"click"});
+						</script>
+					</ul>
+				</li>
+
+				<li>
+					<div class="nav_title"><a href="javascript:">新闻中心</a></div>
+					<ul class="navnews">
+						<li class="content1">
+							<a href="culture.html">
+								<img src="img/menu3.jpg">
+							</a>
+						</li>
+						<li class="content2">
+							<a href="culture.html">	
+								<img src="img/menu4.jpg">
+							</a>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<div class="nav_title"><a href="javascript:">联系我们</a></div>
+					<ul class="navcontact">
+						<li class="content1">
+							<a href="contact.html">
+								<img src="img/menu5.jpg">
+							</a>
+						</li>
+						<li class="content2">
+							<a href="job.html">
+								<img src="img/menu6.jpg">
+							</a>
+						</li>
+					</ul>
+				</li>
+
+			</ul>
+			<div class="search">
+				<div class="search_img"></div>
+				<div class="search_content">
+					<input type="text" name="" placeholder="搜索">
+					<i><img src="img/c1.png"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- 手机端菜单 -->
+	<div class="wap_menu">
+		<ul>
+			<li class="wmenu_list">
+				<div class="menu_icon"><img src="img/wap_menu.png"></div>
+				<!-- 菜单内容 -->
+				<div class="list_con">
+					<div class="c2"><img src="img/c2.png"></div>
+					<div class="con_logo"><img src="img/logo1.png"></div>
+					<ul class="ul1">
+						<li>
+							<div class="ul1_headline">关于海通</div>
+
+							<div class="ul1_con">
+								<div class="ul1_t">关于海通</div>
+								<ul class="con_about">
+									<li>
+										<a href="javascript:"><img src="img/menu1.jpg"></a>
+									</li>
+									<li>
+										<a href="javascript:"><img src="img/menu2.jpg"></a>
+									</li>
+								</ul>
+							</div>
+
+						</li>
+						<li>
+							<div class="ul1_headline">产品中心</div>
+
+							<div class="ul1_con">
+								<div class="ul1_t">产品中心</div>
+								<ul class="con_product">
+									<li><a href="javascript:">
+										<i><img src="img/wap_now.png"></i>新品推荐
+									</a></li>
+									<li><a href="javascript:">
+										<i><img src="img/wap_hot.png"></i>热销产品
+									</a></li>
+									<li><a href="javascript:">
+										<i><img src="img/wap_all.png"></i>所有产品
+									</a></li>
+								</ul>
+							</div>
+
+						</li>
+						<li>
+							<div class="ul1_headline">新闻中心</div>
+							<div class="ul1_con">
+								<div class="ul1_t">新闻中心</div>
+								<ul class="con_news">
+									<li>
+										<a href="javascript:"><img src="img/menu3.jpg"></a>
+									</li>
+									<li>
+										<a href="javascript:"><img src="img/menu4.jpg"></a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<li>
+							<div class="ul1_headline">联系我们</div>
+							<div class="ul1_con">
+								<div class="ul1_t">联系我们</div>
+								<ul class="con_contact">
+									<li>
+										<a href="javascript:"><img src="img/menu5.jpg"></a>
+									</li>
+									<li>
+										<a href="javascript:"><img src="img/menu6.jpg"></a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+					</ul>
+					<ul class="ul2">
+						<li><a href="javascript:">
+							<i><img src="img/tel.png"></i>0769-83191467
+						</a></li>
+						<li><a href="javascript:">
+							<i><img src="img/message.png"></i>在线咨询</a>
+						</li>
+						<li><a href="javascript:">
+							<i><img src="img/add.png"></i>公司地址
+						</a></li>
+						<li><a href="javascript:">
+							<i><img src="img/job.png"></i>招贤纳士
+						</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="wlogo">
+				<a href="javascript:"><img src="img/wap_logo.png"></a>
+			</li>
+			<li class="wsearch">
+				<img src="img/wap_search.png">
+				<div class="ws_con">
+					<input type="text" name="" placeholder="搜索">
+					<i><img src="img/c1.png"></i>
+				</div>
+			</li>
+			<li>
+				<a href="javascript:"><img src="img/wap_home.png"></a>
+			</li>
+		</ul>
+	</div>
+
+
+
+
+
+
+
+	<div class="about">
+		<div class="ab_content">
+			<div class="ab_brief">
+				<img src="img/about-logo.png">
+				<p>东莞市以利海通纺织有限公司</p>
+				<p>DONGGUAN HAITONG ELI TEXTILE CO., LTD.</p>
+			</div>
+			<div class="ab_infor">
+				<P>我公司是一家专业生产粗纺毛纱的毛纺企业，在浙江桐乡、广东中山均设有大型毛纺厂。</p> 
+				<p>浙江总公司占地50亩，生产厂房6万平方米。</p>
+				<p>拥有梳毛机和意大利OCTIR（奥克蒂尔）2500MM与日本KYOWA（京和）2000MM等世界最先进的粗纺设备23台套，</p>
+				<p>日产精品毛纱10吨，</p>
+				<p>中山分公司成立于1993年，是集成了染厂、纺厂一体的粗纺工厂，</p>
+				<p>拥有世界最先进的设备12台套，专业生产半精纺，粗纺等纱线。</p>
+				<p>东莞公司设有5000平方专业大型仓库。</p>
+				<p>所有产品颜色均备现货，产品环保，外销内销兼容。</p>
+			</div>
+		</div>
+	</div>
+	<script src="js/index.js"></script>
+
+	<div class="wap_footer">
+		<ul class="ul2">
+			<li><a href="javascript:">
+				<i><img src="img/tel.png"></i>0769-83191467
+			</a></li>
+			<li><a href="javascript:">
+				<i><img src="img/message.png"></i>在线咨询
+			</a></li>
+			<li><a href="javascript:">
+				<i><img src="img/add.png"></i>公司地址
+			</a></li>
+			<li><a href="javascript:">
+				<i><img src="img/job.png"></i>招贤纳士
+			</a></li>
+		</ul>
+	</div>
+</body>
+</html>
